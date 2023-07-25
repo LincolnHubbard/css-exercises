@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -43,4 +45,37 @@ a:visited{
 
 .right-links{
   list-style-type: none;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.footer{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+ul{
+  display: flex;
+  gap: 16px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
