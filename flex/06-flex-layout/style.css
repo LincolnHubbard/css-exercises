@@ -25,3 +25,22 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+a:link{
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited{
+  color: gray;
+}
+
+.left-links{
+  list-style-type: none;
+ 
+  
+}
+
+.right-links{
+  list-style-type: none;
+}
